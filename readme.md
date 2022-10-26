@@ -14,7 +14,7 @@
 
 ## How to run the app
 
-### To run 'A. Twitter Trends Analysis':
+### To run "A. Twitter Trends Analysis":
 
 1. Fill in the credentials in twitter_app.py
 2. Create two containers in Windows Subsystem of Linux (WSL) with Following command
