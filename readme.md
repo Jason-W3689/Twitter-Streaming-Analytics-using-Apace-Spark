@@ -14,7 +14,7 @@
 
 ## How to run the app
 
-### To run "A. Twitter Trends Analysis":
+### To run A. Twitter Trends Analysis:
 
 1. Fill in the credentials in twitter_app.py
 2. Create two containers in Windows Subsystem of Linux (WSL) with Following command
@@ -34,7 +34,7 @@
 	spark-submit spark_app.py
 7. Access localhost:5001 from the browser and you should be able to see the graph
 
-### To run 'B. Real-time Sentiment Analysis of Twitter Topics':
+### To run B. Real-time Sentiment Analysis of Twitter Topics:
 
 1. Fill in the credentials in twitter_app.py
 2. Create two containers in Windows Subsystem of Linux (WSL) with Following command
