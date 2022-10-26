@@ -1,16 +1,20 @@
-Note 1:
-I cannot save the outputs to .txt files since I push them directly to the webapp
-Please watch the demo video to see the background running status of the application.
+# Twitter Streaming Analytics using Apache Spark
 
-Note 2:
-The results are few because my computer is too weak to run either part for more than 20 minitues.
-I had to captual the result before the computer overheats and reboots
-With good computer the code would be able to produce all the desire outputs
+## A. Twitter Trends Analysis
 
-Note 3:
-Code can only run successfully in WSL. Modification is required in order to run this code on other operating systems
+- This part of the program counts mentioning of any 5 '#Hashtags' in realtime and compare popularity among them.
+- The program performs distributed compuation using **Apache Spark** engine.
+- The result is visualized in real-time using **Flask**
 
-To run part1:
+## B. Real-time Sentiment Analysis of Twitter Topics
+
+- This part of the program Collect tweets related to the 5 topics in real-time and perform sentiment analysis for each topic
+- The sentimental analysis is performed using **NTLK**
+- The result is visualized in real-time using **Flask**
+
+## How to run the app
+
+To run 'A. Twitter Trends Analysis':
 
 1. Fill in the credentials in twitter_app.py
 2. Create two containers in Windows Subsystem of Linux (WSL) with Following command
@@ -30,10 +34,7 @@ To run part1:
 	spark-submit spark_app.py
 7. Access localhost:5001 from the browser and you should be able to see the graph
 
-
-
-
-To run part2:
+To run 'B. Real-time Sentiment Analysis of Twitter Topics':
 
 1. Fill in the credentials in twitter_app.py
 2. Create two containers in Windows Subsystem of Linux (WSL) with Following command
