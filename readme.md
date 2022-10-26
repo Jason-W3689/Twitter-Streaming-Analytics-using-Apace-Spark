@@ -53,3 +53,13 @@
 6. Run the spark app in the second docker container with following command:
 	spark-submit spark_app_sentiment.py
 7. Access localhost:5001 from the browser and you should be able to see the graph
+
+## Demo
+
+A. Twitter Trends Analysis
+
+![A. Twitter Trends Analysis](./A.%20Twitter%20Trends%20Analysis_Demo.png)
+
+B. Real-time Sentiment Analysis of Twitter Topics
+
+![B. Real-time Sentiment Analysis of Twitter Topics](./B.%20Real-time%20Sentiment%20Analysis%20of%20Twitter%20Topics_Demo.png)
